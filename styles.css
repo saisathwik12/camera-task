@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+.head{
+    background-color: rgb(69, 69, 69);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 0;
+    align-items: center;
+}
+.head h1{
+    padding: 0px 50px 0px 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headnav{
+    display: flex;
+    justify-content: center;
+    flex: 3;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.head a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    scroll-behavior: smooth;
+}
+
+#bookmark{
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px;
+    
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    
+}
+.product1{
+    border: 2px outset whitesmoke;
+    margin: 30px 20px 30px 50px; 
+    
+    padding: 50px;
+}
+.product1 span{
+    color: rgb(192, 109, 0);
+}
+
+.foot{
+
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    height: 100px;
+    
+
+}
+.ft1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.ft1 span{
+    padding: 0px 20px;
+}
+
+
